@@ -1,19 +1,19 @@
 <?php
-// Laad de Composer autoloader
+// Use the AutoLoader
 require 'vendor/autoload.php';
 
-// Gebruik de Monolog namespace
+// GUse the Monolog namespace
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-// Maak een nieuwe logger aan
+// Create a new logger
 $log = new Logger('my-logger');
 
-// Voeg een handler toe (in dit geval loggen we naar een bestand)
+// Add a handler (in this case we log into a file)
 $log->pushHandler(new StreamHandler('path/to/your.log', Logger::DEBUG));
 
-// Voeg een logbericht toe
-$log->info('Dit is een informatief bericht.');
+// Attach a log message
+$log->info('This is a message.');
 
 // Test output
-echo "De autoloader is geladen en Monolog is ingesteld. Controleer het logbestand voor het logbericht.";
+echo "The Autoloader is loaded, and the Monolog is configured. Please check the logfile.";
