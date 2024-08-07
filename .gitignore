@@ -1,2 +1,2 @@
-# For now this is an empty file
+# This is a list with excluded files and directories for git
 /vendor/

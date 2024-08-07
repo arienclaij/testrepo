@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f61a29-5de7-49ac-867c-a64202aa057c" name="Changes" comment="Comments translated to English">
-      <change afterPath="$PROJECT_DIR$/tpl/index.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="e5f61a29-5de7-49ac-867c-a64202aa057c" name="Changes" comment="Created directories for Smarty">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/testrepo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/testrepo/configs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,11 +70,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\testrepo\configs" />
+      <recent name="C:\xampp\htdocs\testrepo\tpl_c" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18968.24" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18968.24" />
       </set>
     </attachedChunks>
   </component>
@@ -99,7 +100,12 @@
       <workItem from="1722979329489" duration="879000" />
       <workItem from="1722981719875" duration="21000" />
       <workItem from="1722984486335" duration="330000" />
-      <workItem from="1723023876087" duration="322000" />
+      <workItem from="1723023876087" duration="1421000" />
+      <workItem from="1723030748078" duration="77000" />
+      <workItem from="1723042000237" duration="128000" />
+      <workItem from="1723042160744" duration="13000" />
+      <workItem from="1723069836184" duration="306000" />
+      <workItem from="1723070170373" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="* PHPinfo toegevoegd!&#10;* Kleine typo aangebracht in README.md">
       <option name="closed" value="true" />
@@ -125,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722984717435</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Smarty added!">
+      <option name="closed" value="true" />
+      <created>1723024342373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723024342373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created directories for Smarty">
+      <option name="closed" value="true" />
+      <created>1723024491685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723024491685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +198,19 @@
     <MESSAGE value="* PHPinfo toegevoegd!&#10;* Kleine typo aangebracht in README.md" />
     <MESSAGE value="Composer toegevoegd voor monolog." />
     <MESSAGE value="Comments translated to English" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments translated to English" />
+    <MESSAGE value="Smarty added!" />
+    <MESSAGE value="Created directories for Smarty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created directories for Smarty" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
