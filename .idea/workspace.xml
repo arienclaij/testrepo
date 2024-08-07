@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f61a29-5de7-49ac-867c-a64202aa057c" name="Changes" comment="Composer toegevoegd voor monolog.">
+    <list default="true" id="e5f61a29-5de7-49ac-867c-a64202aa057c" name="Changes" comment="Comments translated to English">
+      <change afterPath="$PROJECT_DIR$/tpl/index.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,9 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/smarty/smarty" />
+      <path value="$PROJECT_DIR$/vendor/smarty-gettext/smarty-gettext" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -55,6 +62,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/testrepo&quot;,
@@ -90,6 +98,8 @@
       <workItem from="1722977515428" duration="1403000" />
       <workItem from="1722979329489" duration="879000" />
       <workItem from="1722981719875" duration="21000" />
+      <workItem from="1722984486335" duration="330000" />
+      <workItem from="1723023876087" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="* PHPinfo toegevoegd!&#10;* Kleine typo aangebracht in README.md">
       <option name="closed" value="true" />
@@ -107,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722978367355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Comments translated to English">
+      <option name="closed" value="true" />
+      <created>1722984717435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722984717435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,12 +164,18 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* PHPinfo toegevoegd!&#10;* Kleine typo aangebracht in README.md" />
     <MESSAGE value="Composer toegevoegd voor monolog." />
-    <option name="LAST_COMMIT_MESSAGE" value="Composer toegevoegd voor monolog." />
+    <MESSAGE value="Comments translated to English" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments translated to English" />
   </component>
 </project>

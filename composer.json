@@ -1,5 +1,7 @@
 {
     "require": {
-        "monolog/monolog": "^3.7"
+        "monolog/monolog": "^3.7",
+        "smarty/smarty": "^5.3",
+        "smarty-gettext/smarty-gettext": "^1.7"
     }
 }

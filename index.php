@@ -17,3 +17,19 @@ $log->info('This is a message.');
 
 // Test output
 echo "The Autoloader is loaded, and the Monolog is configured. Please check the logfile.";
+
+// Initialize Smarty
+$smarty = new Smarty();
+
+// Configure Smarty directories
+$smarty->setTemplateDir('tpl');
+$smarty->setCompileDir('tpl_c');
+$smarty->setCacheDir('cache');
+$smarty->setConfigDir('configs');
+
+// Assign variables
+$smarty->assign('name', 'John');
+
+// Display the template
+$smarty->display('index.tpl');
+?>
